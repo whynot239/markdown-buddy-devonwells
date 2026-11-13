@@ -1,0 +1,27 @@
+---
+title: "Sales Summary Script Documentation"
+author: "Devon Wells"
+output: html_document
+---
+
+**AI assistance:** ChatGPT through Codex helped prepare the example and documentation. See `Appendix.md` for the request and checks.
+
+# Purpose
+
+The script demonstrates a basic product-level sales summary using a small synthetic dataset.
+
+# Inputs
+
+The script creates its own data frame with product names, quantities and unit prices. No external file is required.
+
+# Process
+
+Revenue is calculated for each record as quantity multiplied by unit price. The script then aggregates revenue by product.
+
+```{r run-summary}
+source('sales_summary.R')
+```
+
+# Outputs
+
+The console displays the total revenue for each product and identifies the highest total. The objects remain available in the R session.

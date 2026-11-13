@@ -1,0 +1,7 @@
+# AI assistance record
+
+ChatGPT through Codex prepared the example script and documentation on 13 November 2026. The user's actual request was: “Okay, add R in this environment and also run and verify the script and dashboard. Also complete the repository link screenshot reports and personal reflection also. You have my permission to complete the assignment.” Earlier, the user asked for help making the six BDA 400 assignments for Devon Wells.
+
+The assistant created a synthetic sales-summary example and a README and R Markdown file describing it. The seed, refinement and critique prompts printed in the course brief are suggested prompts; they were not separately submitted in this conversation. They should not be represented as an actual prompt history.
+
+The assistant checked the documentation structure against [the dplyr repository](https://github.com/tidyverse/dplyr#readme) and [GitHub's Markdown syntax guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). The synthetic script was run in R 4.6.2: the totals were Folder 18, Notebook 28, and Pen 26. The test output is saved as `test_output.txt`. `knitr::knit()` successfully ran the R Markdown chunk and produced Markdown, as shown in `knit_output.txt`; an HTML render and GitHub preview have not yet been confirmed. Sheets calculations and personal checks remain outstanding. The course did not provide the three referenced reflection questions; the reflection uses topics stated in the brief instead.
